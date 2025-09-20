@@ -7,3 +7,5 @@ Just Create a React app with Vite and Make it Blank & also Create Folders
 
 In the Src folder 
 
+-> Creating a Navbar in the Assets folder with specific styling 
+-> Creating Different Pages
