@@ -1,0 +1,9 @@
+Started a E-Commerce Project
+Just Create a React app with Vite and Make it Blank & also Create Folders 
+
+-> Component
+-> Context -> For APIs
+-> Pages -> For all Pages
+
+In the Src folder 
+
