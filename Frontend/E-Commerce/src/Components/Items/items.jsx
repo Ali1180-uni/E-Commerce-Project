@@ -1,4 +1,3 @@
-import React from "react";
 import "./items.css";
 
 function Items(props) {

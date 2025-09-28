@@ -4,7 +4,7 @@ import Types from "../Components/Types/types";
 import Offers from "../Components/Offers/offers";
 import NewCollections from "../Components/newCollections/newCollections";
 import NewsLetter from "../Components/NewsLetter/NewsLetter";
-import Footer from "../Components/Footer/footer";
+
 
 function Shop(){
     return (
@@ -14,7 +14,6 @@ function Shop(){
             <Offers />
             <NewCollections />
             <NewsLetter />
-            <Footer />
         </div>
     )
 }
