@@ -1,0 +1,113 @@
+.loginSignup-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.loginSignup-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 2.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  animation: fadeIn 0.6s ease-in-out;
+  color: #111827;
+  border: 1px solid #e5e7eb;
+}
+
+.loginSignup-container h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.loginSignUp-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginSignUp-field input {
+  padding: 12px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  outline: none;
+  background: #f9fafb;
+  color: #111827;
+  font-size: 1rem;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.loginSignUp-field input::placeholder {
+  color: #9ca3af;
+}
+
+.loginSignUp-field input:focus {
+  border: 1px solid #ef4444; /* red border */
+  box-shadow: 0 0 6px rgba(239, 68, 68, 0.4);
+  background: #fff;
+}
+
+.loginSignup-container button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: #ef4444;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease;
+}
+
+.loginSignup-container button:hover {
+  background: #dc2626;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(220, 38, 38, 0.3);
+}
+
+.loginSignup-login {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+.loginSignup-login span {
+  color: #ef4444;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.loginSignup-login span:hover {
+  color: #dc2626;
+  text-decoration: underline;
+}
+
+.loginSignup-Agree {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #4b5563;
+  text-align: left;
+}
+
+.loginSignup-Agree input {
+  margin-right: 8px;
+  accent-color: #ef4444;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

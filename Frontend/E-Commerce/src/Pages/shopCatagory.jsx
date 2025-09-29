@@ -8,7 +8,7 @@ function ShopCatagory(props){
     const {all_product} = useContext(ShopContext);
     return (
         <div className="ShopCatagory">
-            <img src={props.banner} alt="banners" />
+            <img className="Banner-shop" src={props.banner} alt="banners" />
             <div className="shopCatagory-indexes">
                 <p>
                     <span>Showing 1 to 12</span> out of 36 Products
@@ -26,6 +26,9 @@ function ShopCatagory(props){
                         return null;
                     }
                 })}
+            </div>
+            <div className="load-more">
+                Explore More
             </div>
         </div>
     )
